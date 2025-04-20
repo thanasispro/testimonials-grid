@@ -1,0 +1,54 @@
+// Primary Colors
+$purple-50: hsl(260, 100%, 95%);
+$purple-300: hsl(264, 82%, 80%);
+$purple-500: hsl(263, 55%, 52%);
+
+// Neutral Colors
+$white: hsl(0, 0%, 100%);
+$grey-100: hsl(214, 17%, 92%);
+$grey-200: hsl(0, 0%, 81%);
+$grey-400: hsl(224, 10%, 45%);
+$grey-500: hsl(217, 19%, 35%);
+$dark-blue: hsl(219, 29%, 14%);
+$black: hsl(0, 0%, 7%);
+
+// Text Presets
+@mixin text-preset-1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600; // Semibold
+  font-size: 1.538rem; // 20px
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+
+@mixin text-preset-2 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500; // Medium
+  font-size: 1rem; // 13px
+  line-height: 110%;
+  letter-spacing: 0px;
+}
+
+@mixin text-preset-3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500; // Medium
+  font-size: 1rem; // 13px
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+
+@mixin text-preset-4 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500; // Medium
+  font-size: 0.846rem; // 11px
+  line-height: 110%;
+  letter-spacing: 0px;
+}
+
+// Spacing
+$spacing-500: 3.077rem; // 40px
+$spacing-400: 2.462rem; // 32px
+$spacing-300: 1.846rem; // 24px
+$spacing-200: 1.231rem; // 16px
+$spacing-100: 0.615rem; // 8px
+$spacing-50: 0.308rem; // 4px
