@@ -6,7 +6,7 @@
 }
 
 h1,
-h1,
+h2,
 h3,
 h4,
 h5,
@@ -68,7 +68,7 @@ main {
   height: 2.154rem;
   border-radius: 50%;
 }
-.testimonial-card .profile h3 {
+.testimonial-card .profile h2 {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -105,7 +105,7 @@ main {
   color: hsl(0, 0%, 100%);
 }
 .testimonial-card:nth-child(1) p,
-.testimonial-card:nth-child(1) h3 {
+.testimonial-card:nth-child(1) h2 {
   color: hsl(260, 100%, 95%);
 }
 @media (min-width: 768px) {
@@ -128,7 +128,7 @@ main {
   color: hsl(0, 0%, 100%);
 }
 .testimonial-card:nth-child(2) p,
-.testimonial-card:nth-child(2) h3 {
+.testimonial-card:nth-child(2) h2 {
   color: hsl(214, 17%, 92%);
 }
 .testimonial-card:nth-child(3), .testimonial-card:nth-child(5) {
@@ -138,8 +138,8 @@ main {
   color: hsl(217, 19%, 35%);
 }
 .testimonial-card:nth-child(3) p,
-.testimonial-card:nth-child(3) h3, .testimonial-card:nth-child(5) p,
-.testimonial-card:nth-child(5) h3 {
+.testimonial-card:nth-child(3) h2, .testimonial-card:nth-child(5) p,
+.testimonial-card:nth-child(5) h2 {
   color: hsl(224, 10%, 45%);
 }
 .testimonial-card:nth-child(4) {
@@ -149,7 +149,7 @@ main {
   color: hsl(0, 0%, 81%);
 }
 .testimonial-card:nth-child(4) p,
-.testimonial-card:nth-child(4) h3 {
+.testimonial-card:nth-child(4) h2 {
   color: hsl(214, 17%, 92%);
 }
 

@@ -8,7 +8,7 @@
 }
 
 h1,
-h1,
+h2,
 h3,
 h4,
 h5,
@@ -71,7 +71,7 @@ main {
       border-radius: 50%;
     }
 
-    h3 {
+    h2 {
       @include vars.text-preset-2;
       margin-bottom: vars.$spacing-50;
     }
@@ -96,7 +96,7 @@ main {
       color: vars.$white;
     }
     p,
-    h3 {
+    h2 {
       color: vars.$purple-50;
     }
     @media (min-width: 768px) {
@@ -120,7 +120,7 @@ main {
       color: vars.$white;
     }
     p,
-    h3 {
+    h2 {
       color: vars.$grey-100;
     }
   }
@@ -132,7 +132,7 @@ main {
       color: vars.$grey-500;
     }
     p,
-    h3 {
+    h2 {
       color: vars.$grey-400;
     }
   }
@@ -143,7 +143,7 @@ main {
       color: vars.$grey-200;
     }
     p,
-    h3 {
+    h2 {
       color: vars.$grey-100;
     }
   }
