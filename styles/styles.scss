@@ -8,7 +8,7 @@
 }
 
 h1,
-h2,
+h1,
 h3,
 h4,
 h5,
@@ -83,14 +83,14 @@ main {
     @include vars.text-preset-3;
   }
 
-  h2 {
+  h1 {
     @include vars.text-preset-1;
   }
 
   &:nth-child(1) {
     position: relative;
     background: vars.$purple-500;
-    h2 {
+    h1 {
       color: vars.$white;
     }
     p,
@@ -105,7 +105,7 @@ main {
         height: 102px;
         right: 60px;
         top: 0px;
-        background: url("../images/bg-pattern-quotation.svg") no-repeat center
+        background: url("/images/bg-pattern-quotation.svg") no-repeat center
           center;
         background-size: contain;
         z-index: -1;
@@ -114,7 +114,7 @@ main {
   }
   &:nth-child(2) {
     background: vars.$grey-500;
-    h2 {
+    h1 {
       color: vars.$white;
     }
     p,
@@ -126,7 +126,7 @@ main {
   &:nth-child(3),
   &:nth-child(5) {
     background: vars.$white;
-    h2 {
+    h1 {
       color: vars.$grey-500;
     }
     p,
@@ -137,7 +137,7 @@ main {
 
   &:nth-child(4) {
     background: vars.$dark-blue;
-    h2 {
+    h1 {
       color: vars.$grey-200;
     }
     p,
