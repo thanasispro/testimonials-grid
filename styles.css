@@ -114,7 +114,7 @@ main {
     height: 102px;
     right: 60px;
     top: 0px;
-    background: url("/images/bg-pattern-quotation.svg") no-repeat center center;
+    background: url("images/bg-pattern-quotation.svg") no-repeat center center;
     background-size: contain;
     z-index: -1;
   }
